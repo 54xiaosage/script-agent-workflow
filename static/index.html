@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>剧本智能体工作流</title>
+  <link rel="stylesheet" href="/assets/style.css" />
+</head>
+<body>
+  <header class="top">
+    <div class="brand">
+      <span class="mark">场</span>
+      <div>
+        <strong>剧本智能体</strong>
+        <p>人设锁定 · 正史贯通 · 场次循环</p>
+      </div>
+    </div>
+    <div class="top-actions">
+      <select id="projectSelect"></select>
+      <button type="button" id="newProjectBtn" class="ghost">新建项目</button>
+    </div>
+  </header>
+
+  <main class="layout">
+    <section class="panel">
+      <nav class="tabs">
+        <button data-tab="bible" class="on">人设圣经</button>
+        <button data-tab="plot">大纲节拍</button>
+        <button data-tab="canon">正史时间线</button>
+        <button data-tab="scenes">已写场次</button>
+      </nav>
+
+      <div id="tab-bible" class="tab">
+        <div class="row">
+          <input id="metaTitle" placeholder="剧名" />
+          <input id="metaGenre" placeholder="类型" />
+        </div>
+        <textarea id="metaLogline" rows="2" placeholder="一句话故事"></textarea>
+        <div class="row">
+          <button type="button" id="saveMetaBtn">保存剧作信息</button>
+          <button type="button" id="addCharBtn" class="ghost">加人设</button>
+        </div>
+        <div id="chars"></div>
+        <button type="button" id="saveCharsBtn">保存全部人设</button>
+      </div>
+
+      <div id="tab-plot" class="tab hidden">
+        <textarea id="premise" rows="2" placeholder="故事前提"></textarea>
+        <textarea id="stakes" rows="2" placeholder="若不行动会失去什么"></textarea>
+        <label>未收线（一行一条）</label>
+        <textarea id="threads" rows="3"></textarea>
+        <div id="acts"></div>
+        <div class="row">
+          <button type="button" id="addActBtn" class="ghost">加幕</button>
+          <button type="button" id="savePlotBtn">保存大纲</button>
+        </div>
+      </div>
+
+      <div id="tab-canon" class="tab hidden">
+        <div id="canonView" class="canon"></div>
+      </div>
+
+      <div id="tab-scenes" class="tab hidden">
+        <div id="sceneList"></div>
+      </div>
+    </section>
+
+    <section class="panel writer">
+      <h2>下一场生成</h2>
+      <p class="hint">流程：规划节拍 → 写场 → 人设守卫 → 贯通校验 → 必要时改写 → 抽取正史。</p>
+      <textarea id="extra" rows="3" placeholder="可选：本场额外指令，例如“只上林晚和赵屿，不要闪回”"></textarea>
+      <label class="check"><input type="checkbox" id="autoSave" checked /> 通过后写入正史并保存场次</label>
+      <button type="button" id="generateBtn" class="primary">生成下一场</button>
+      <div id="status" class="status"></div>
+      <article id="result" class="result"></article>
+    </section>
+  </main>
+  <script src="/assets/app.js"></script>
+</body>
+</html>

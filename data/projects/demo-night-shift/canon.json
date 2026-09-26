@@ -1,0 +1,384 @@
+{
+  "facts": [
+    {
+      "id": "F001",
+      "text": "故事发生在城南一条没有出租车停靠的夜班便利店。",
+      "locked": true,
+      "source_scene": "",
+      "category": "world"
+    },
+    {
+      "id": "F002",
+      "text": "林晚不会黑客，也不能打开加密盘。",
+      "locked": true,
+      "source_scene": "",
+      "category": "character"
+    },
+    {
+      "id": "F003",
+      "text": "店内有监控，但杂志架下方是盲区。",
+      "locked": true,
+      "source_scene": "",
+      "category": "object"
+    },
+    {
+      "id": "S001-F1",
+      "text": "23:40左右，便利店顶部一根灯管在闪。",
+      "locked": false,
+      "source_scene": "S001",
+      "category": "world"
+    },
+    {
+      "id": "S001-F2",
+      "text": "林晚推补货车从冷柜那头到杂志架前，蹲下码货。",
+      "locked": false,
+      "source_scene": "S001",
+      "category": "character"
+    },
+    {
+      "id": "S001-F3",
+      "text": "林晚发现地砖反光，用手机手电贴地扫了一圈，看到口香糖纸、一根头发、货架腿下的灰，没有别的东西。",
+      "locked": false,
+      "source_scene": "S001",
+      "category": "world"
+    },
+    {
+      "id": "F004",
+      "text": "林晚从杂志架底下勾出一个U盘；U盘为黑色、无标记、插口那头有划痕、表面无字。",
+      "locked": false,
+      "source_scene": "S001",
+      "category": "object"
+    },
+    {
+      "id": "F005",
+      "text": "林晚用纸巾包住U盘，塞进围裙口袋。",
+      "locked": false,
+      "source_scene": "S001",
+      "category": "object"
+    },
+    {
+      "id": "F006",
+      "text": "林晚抬头看钟，时间为23:41。",
+      "locked": false,
+      "source_scene": "S001",
+      "category": "world"
+    },
+    {
+      "id": "F007",
+      "text": "周姐通过对讲机问林晚关东煮损耗记了没；林晚答记了。",
+      "locked": false,
+      "source_scene": "S001",
+      "category": "character"
+    },
+    {
+      "id": "F008",
+      "text": "周姐对讲说今晚监控她明早调，让林晚别打瞌睡；林晚答行。",
+      "locked": false,
+      "source_scene": "S001",
+      "category": "knowledge"
+    },
+    {
+      "id": "F009",
+      "text": "赵屿推门进店，没有往冷柜走，站在门口把货架、收银台、最里面那排看了一圈。",
+      "locked": false,
+      "source_scene": "S001",
+      "category": "character"
+    },
+    {
+      "id": "F010",
+      "text": "赵屿贴着饮料柜那一侧走，绕开杂志架这排。",
+      "locked": false,
+      "source_scene": "S001",
+      "category": "character"
+    },
+    {
+      "id": "F011",
+      "text": "赵屿让林晚拿同样的无糖咖啡；林晚去冷柜取罐放台上扫码，说六块。",
+      "locked": false,
+      "source_scene": "S001",
+      "category": "character"
+    },
+    {
+      "id": "F012",
+      "text": "赵屿给十块，林晚找四个硬币；赵屿的手伸到台面上方停两秒，缩回插兜，后又伸手把硬币拢进手心。",
+      "locked": false,
+      "source_scene": "S001",
+      "category": "character"
+    },
+    {
+      "id": "F013",
+      "text": "林晚问硬币要不要袋子、关东煮要不要、保温柜坏了、会员积分，赵屿分别答不用、不、嗯、不积。",
+      "locked": false,
+      "source_scene": "S001",
+      "category": "relationship"
+    },
+    {
+      "id": "F014",
+      "text": "赵屿站在收银台前，罐子没开，眼睛往杂志架那边扫了一下又收回。",
+      "locked": false,
+      "source_scene": "S001",
+      "category": "character"
+    },
+    {
+      "id": "F015",
+      "text": "林晚与赵屿短暂沉默，灯管闪；两人未说出“U盘”二字。",
+      "locked": false,
+      "source_scene": "S001",
+      "category": "relationship"
+    },
+    {
+      "id": "F016",
+      "text": "赵屿问杂志架今晚是否有人翻过；林晚答天天有人翻。",
+      "locked": false,
+      "source_scene": "S001",
+      "category": "knowledge"
+    },
+    {
+      "id": "F017",
+      "text": "赵屿又问地上有没有人掉东西；林晚擦台面的手停了一下，问掉什么了；赵屿答“没。算了。”",
+      "locked": false,
+      "source_scene": "S001",
+      "category": "knowledge"
+    },
+    {
+      "id": "F018",
+      "text": "赵屿拿起罐子没开，转身出门，风铃响。",
+      "locked": false,
+      "source_scene": "S001",
+      "category": "character"
+    },
+    {
+      "id": "F019",
+      "text": "赵屿没走，站在店外抽烟处窗边，背对街，烟捏在手里没点。",
+      "locked": false,
+      "source_scene": "S001",
+      "category": "character"
+    },
+    {
+      "id": "F020",
+      "text": "林晚隔着玻璃低头继续擦台面，手从台面滑下去碰到围裙口袋，硬的一角。",
+      "locked": false,
+      "source_scene": "S001",
+      "category": "character"
+    },
+    {
+      "id": "S002-F1",
+      "text": "墙上钟显示00:06。",
+      "locked": true,
+      "source_scene": "S002",
+      "category": "world"
+    },
+    {
+      "id": "S002-F2",
+      "text": "周姐折回便利店，手里捏着手机和一叠损耗单，外套没脱。",
+      "locked": true,
+      "source_scene": "S002",
+      "category": "character"
+    },
+    {
+      "id": "S002-F3",
+      "text": "周姐说这个班损耗对不上：关东煮、便当、两瓶水；她不等明早，现在调监控。",
+      "locked": true,
+      "source_scene": "S002",
+      "category": "knowledge"
+    },
+    {
+      "id": "S002-F4",
+      "text": "周姐绕到收银台后面，把监控屏转过来调监控；屏幕分四格，她把时间轴拖到23:43。",
+      "locked": true,
+      "source_scene": "S002",
+      "category": "world"
+    },
+    {
+      "id": "S002-F5",
+      "text": "监控画面中，杂志架那一排货架腿以下全是灰影，看不到底。",
+      "locked": true,
+      "source_scene": "S002",
+      "category": "world"
+    },
+    {
+      "id": "S002-F6",
+      "text": "监控23:43显示赵屿推门进店，站门口把货架、收银台、最里面那排看了一圈，然后贴着饮料柜那侧走，绕开杂志架。",
+      "locked": true,
+      "source_scene": "S002",
+      "category": "character"
+    },
+    {
+      "id": "S002-F7",
+      "text": "监控中赵屿停在收银台前两秒，手在台面上方停了一下，缩回兜里。",
+      "locked": true,
+      "source_scene": "S002",
+      "category": "character"
+    },
+    {
+      "id": "S002-F8",
+      "text": "监控中赵屿拿着罐子出门，站在店外抽烟处窗边。",
+      "locked": true,
+      "source_scene": "S002",
+      "category": "character"
+    },
+    {
+      "id": "S002-F9",
+      "text": "周姐问林晚赵屿是不是在找东西。",
+      "locked": true,
+      "source_scene": "S002",
+      "category": "character"
+    },
+    {
+      "id": "S002-F10",
+      "text": "林晚告诉周姐：赵屿问过地上有没有人掉东西；她答“掉什么了”，赵屿说“算了”；就这些。",
+      "locked": true,
+      "source_scene": "S002",
+      "category": "knowledge"
+    },
+    {
+      "id": "S002-F11",
+      "text": "林晚的手在围裙上擦了一下，往下滑，按进口袋，硬的一角硌着掌心。",
+      "locked": true,
+      "source_scene": "S002",
+      "category": "character"
+    },
+    {
+      "id": "S002-F12",
+      "text": "窗外赵屿看见店里的周姐，没进来，把烟从左手换到右手，还是没点。",
+      "locked": true,
+      "source_scene": "S002",
+      "category": "character"
+    },
+    {
+      "id": "S002-F13",
+      "text": "周姐隔着玻璃盯了赵屿两秒，并问“这烟他捏多久了”；林晚答“没点”；周姐说“大半夜站窗边不抽烟”；林晚没接。",
+      "locked": true,
+      "source_scene": "S002",
+      "category": "character"
+    },
+    {
+      "id": "S002-F14",
+      "text": "周姐把损耗单推给林晚，要求明早八点之前写损耗说明，一笔一笔写，别糊她；林晚答行。",
+      "locked": true,
+      "source_scene": "S002",
+      "category": "relationship"
+    },
+    {
+      "id": "S002-F15",
+      "text": "周姐说店里不能有来路不明的东西，谁放这儿、谁落这儿，要林晚告诉她；林晚答行。",
+      "locked": true,
+      "source_scene": "S002",
+      "category": "relationship"
+    },
+    {
+      "id": "S002-F16",
+      "text": "周姐出门，风铃响；玻璃外赵屿不在窗边了，烟灰缸没动过。",
+      "locked": true,
+      "source_scene": "S002",
+      "category": "world"
+    },
+    {
+      "id": "S002-F17",
+      "text": "林晚站在监控屏前，四格画面还在转；她的手还插在围裙口袋里，按着那个硬角。",
+      "locked": true,
+      "source_scene": "S002",
+      "category": "character"
+    },
+    {
+      "id": "S002-F18",
+      "text": "周姐问灯管还没换；林晚答报了；周姐说报了没人来，行。",
+      "locked": true,
+      "source_scene": "S002",
+      "category": "character"
+    }
+  ],
+  "timeline": [
+    {
+      "when": "今晚 23:10 交接后",
+      "event": "林晚独自上夜班",
+      "scene_id": ""
+    },
+    {
+      "when": "23:40左右",
+      "event": "便利店灯管闪；林晚推补货车到杂志架前蹲下码货。",
+      "scene_id": "S001"
+    },
+    {
+      "when": "23:41",
+      "event": "林晚从杂志架下捡到无标记U盘，用纸巾包好放入围裙口袋，并看钟确认时间。",
+      "scene_id": "S001"
+    },
+    {
+      "when": "23:41后不久",
+      "event": "周姐对讲机询问关东煮损耗并说明早调监控。",
+      "scene_id": "S001"
+    },
+    {
+      "when": "随后",
+      "event": "赵屿进店，绕开杂志架，买无糖咖啡，找零时手停顿，询问是否有东西掉在地上后离开。",
+      "scene_id": "S001"
+    },
+    {
+      "when": "赵屿离开后",
+      "event": "赵屿站在店外抽烟处窗边，烟未点；林晚在店内擦台面，手碰到围裙口袋硬角。",
+      "scene_id": "S001"
+    },
+    {
+      "when": "00:06",
+      "event": "周姐折回便利店，手里拿着手机和损耗单；墙上钟显示00:06。",
+      "scene_id": "S002"
+    },
+    {
+      "when": "23:43",
+      "event": "监控显示赵屿进店，绕开杂志架，在收银台停两秒，出店站店外抽烟处窗边。",
+      "scene_id": "S002"
+    },
+    {
+      "when": "00:06后",
+      "event": "周姐问林晚赵屿是否找东西；林晚只说赵屿问过地上有没有人掉东西；周姐要求明早八点前交损耗说明并报告来路不明物品；周姐离开，赵屿不在窗边；林晚站在监控屏前，手按口袋硬角。",
+      "scene_id": "S002"
+    }
+  ],
+  "chekhov": [
+    {
+      "item": "U盘",
+      "status": "planted"
+    },
+    {
+      "item": "监控盲区",
+      "status": "planted"
+    },
+    {
+      "item": "无标记U盘",
+      "status": "planted"
+    },
+    {
+      "item": "周姐明早调监控",
+      "status": "planted"
+    },
+    {
+      "item": "赵屿手中未点的烟",
+      "status": "planted"
+    },
+    {
+      "item": "赵屿未开的咖啡罐",
+      "status": "planted"
+    },
+    {
+      "item": "林晚围裙口袋里的硬角",
+      "status": "planted"
+    },
+    {
+      "item": "林晚围裙口袋里的硬角",
+      "status": "planted"
+    },
+    {
+      "item": "杂志架下方监控盲区",
+      "status": "planted"
+    },
+    {
+      "item": "赵屿未点的烟",
+      "status": "planted"
+    },
+    {
+      "item": "未动过的烟灰缸",
+      "status": "planted"
+    }
+  ]
+}

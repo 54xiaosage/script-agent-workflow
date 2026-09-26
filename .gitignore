@@ -1,0 +1,11 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.idea/
+.vscode/
+data/projects/*
+!data/projects/.gitkeep
+!data/projects/demo-night-shift/
+!data/projects/demo-night-shift/**
