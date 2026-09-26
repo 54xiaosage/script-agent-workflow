@@ -16,7 +16,7 @@
 ## 运行
 
 ```powershell
-cd C:\Users\32616\script-agent-workflow
+cd C:\Users\script-agent-workflow
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 pip install -r requirements.txt
